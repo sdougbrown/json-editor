@@ -1,17 +1,13 @@
 JSON Editor
 ===========
 
+**This is a hard fork, and will intentionally break things that I deem unneccessary (like superflous CSS framework integrations)**
+
 ![JSON Schema -> HTML Editor -> JSON](https://raw.github.com/jdorn/json-editor/master/jsoneditor.png)
 
 JSON Editor takes a JSON Schema and uses it to generate an HTML form.  
-It has full support for JSON Schema version 3 and 4 and can integrate with several popular CSS frameworks (bootstrap, foundation, and jQueryUI).
+It has full support for JSON Schema version 3 and 4.
 
-Check out an interactive demo (demo.html): http://jeremydorn.com/json-editor/
-
-Download the [production version][min] (22K when gzipped) or the [development version][max].
-
-[min]: https://raw.github.com/jdorn/json-editor/master/dist/jsoneditor.min.js
-[max]: https://raw.github.com/jdorn/json-editor/master/dist/jsoneditor.js
 
 Requirements
 -----------------
@@ -23,7 +19,6 @@ JSON Editor has no dependencies. It only needs a modern browser (tested in Chrom
 The following are not required, but can improve the style and usability of JSON Editor when present.
 
 *  A compatible JS template engine (Mustache, Underscore, Hogan, Handlebars, Swig, Markup, or EJS)
-*  A compatible CSS framework for styling (bootstrap 2/3, foundation 3/4/5, or jqueryui)
 *  A compatible icon library (bootstrap 2/3 glyphicons, foundation icons 2/3, jqueryui, or font awesome 3/4)
 *  [SCEditor](http://www.sceditor.com/) for WYSIWYG editing of HTML or BBCode content
 *  [EpicEditor](http://epiceditor.com/) for editing of Markdown content
